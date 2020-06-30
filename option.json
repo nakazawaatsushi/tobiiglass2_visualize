@@ -1,0 +1,6 @@
+{
+    "DIR_PROJ": "D:\\2020.石垣島データ\\tobii\\projects\\vp5ubda",
+    "FFMPEG": "D:\\2020.石垣島データ\\ffmpeg-win64\\bin\\ffmpeg.exe",
+    "FFMPEG_OPT_AUDIO": "-vn -ac 2 -f mp3 -af aresample=async=1",
+    "FFMPEG_OPT_MERGE": "-c:v copy -c:a copy -map 0:v:0 -map 1:a:0"
+}
